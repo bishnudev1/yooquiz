@@ -33,10 +33,10 @@ const Result = ({ navigation, route }) => {
                 </View>
                 <View>
                     <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.quizbtn}>
-                        <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'wheat',textAlign:'center' }}>Go home</Text>
+                        <Text style={{ fontSize: 18,fontFamily:'DynaPuff-Regular', color: 'wheat',textAlign:'center' }}>Go home</Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => Linking.openURL('https://www.buymeacoffee.com/bishnudevk8')} style={styles.quizbtn}>
-                        <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'wheat',textAlign:'center' }}>Buy me a coffe</Text>
+                        <Text style={{ fontSize: 18,fontFamily:'DynaPuff-Regular', color: 'wheat',textAlign:'center' }}>Buy me a coffe</Text>
                     </TouchableOpacity>
                 </View>
             </ImageBackground>
@@ -57,13 +57,14 @@ const styles = StyleSheet.create({
     },
     resultheadtext: {
         color: 'white',
-        fontWeight: 'bold',
-        fontSize: 28
+        fontSize: 28,
+        fontFamily:'DynaPuff-Medium'
     },
     resulttext: {
         color: 'white',
         fontSize: 22,
-        padding: 10
+        padding: 10,
+        fontFamily:'Poppins-Light'
     },
     quizbtn: {
         paddingVertical: 10,
@@ -77,7 +78,8 @@ const styles = StyleSheet.create({
     resultmaintext: {
         color: 'white',
         textAlign: 'center',
-        fontSize: 27
+        fontSize: 27,
+        fontFamily:'JosefinSans-Medium'
     }
 })
 

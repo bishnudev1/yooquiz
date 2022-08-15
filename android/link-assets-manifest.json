@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/DynaPuff-Bold.ttf",
+      "sha1": "67b80dc4311ebb77f599d02ecde0784ae00d4ec7"
+    },
+    {
+      "path": "assets/fonts/DynaPuff-Medium.ttf",
+      "sha1": "95cdb27358a53a04cadfc1acbd961243c51d1d3a"
+    },
+    {
+      "path": "assets/fonts/DynaPuff-Regular.ttf",
+      "sha1": "a66855f062bf70421016ebd87169bfd5794ffa53"
+    },
+    {
+      "path": "assets/fonts/DynaPuff-SemiBold.ttf",
+      "sha1": "fbd7de1d1374269b64629ec65adae6a6c6217156"
+    },
+    {
+      "path": "assets/fonts/JosefinSans-ExtraLight.ttf",
+      "sha1": "1b4f795659a0c600cd6a2281834b27f1039bd406"
+    },
+    {
+      "path": "assets/fonts/JosefinSans-Light.ttf",
+      "sha1": "869f678f03202d133387df8a2058d4d437b7c798"
+    },
+    {
+      "path": "assets/fonts/JosefinSans-Medium.ttf",
+      "sha1": "16e7e4b48d1c7fe6e1d66a49dd9bcedb5bbf0a82"
+    },
+    {
+      "path": "assets/fonts/Poppins-Bold.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "assets/fonts/Poppins-Light.ttf",
+      "sha1": "e247a92158e112f8bf7b638c8d95381d66b00dbb"
+    },
+    {
+      "path": "assets/fonts/Poppins-Medium.ttf",
+      "sha1": "283f21b44efbdbf276ba802be2d949a36bbc4233"
+    },
+    {
+      "path": "assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    }
+  ]
+}

@@ -52,7 +52,7 @@ const Quiz = ({ navigation }) => {
           <View style={styles.container}>
             <ImageBackground style={styles.imgcontainer} resizeMode="stretch" source={require('../assets/images/quizbackground.jpg')}>
               <View>
-                <Text style={{ fontSize: 24, color: 'white', marginBottom: 25 }}>Q. {questions[question].ques}</Text>
+                <Text style={{ fontSize: 24, color: 'white', marginBottom: 25,fontFamily:'Poppins-Regular' }}>Q. {questions[question].ques}</Text>
                 <View>
                   <TouchableOpacity onPress={() => handleAuth(questions[question].options[ansno])} style={styles.anscontainer}>
                     <Text style={styles.ansstyle}>A. {questions[question].options[ansno]}</Text>
@@ -121,14 +121,15 @@ const styles = StyleSheet.create({
   ansstyle: {
     textAlign: 'left',
     color: 'white',
-    fontSize: 17
+    fontSize: 17,
+    fontFamily:'Poppins-Bold'
   },
   quizbtntext: {
     fontSize: 14,
     color: 'white',
     textAlign: 'center',
-    fontWeight: 'bold',
-    marginHorizontal:10
+    marginHorizontal:10,
+    fontFamily:'JosefinSans-Medium'
   },
   quizbtn: {
     paddingVertical: 10,

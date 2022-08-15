@@ -4,13 +4,13 @@ import React from 'react'
 const Home = ({navigation}) => {
   return (
     <View style={styles.container}>
-      <ImageBackground style={styles.imgcontainer} resizeMode="stretch" source={require('../assets/images/background.jpg')}>
+      <ImageBackground style={styles.imgcontainer} resizeMode="stretch" source={require('../assets/images/quiz.jpg')}>
         <View style={{ alignItems: 'center' }}>
-          <Text style={{ textAlign: 'center', fontSize: 28, color: 'white', paddingBottom: 30, fontWeight: 'bold' }}>Welcome to Yooquiz</Text>
+          <Text style={{ textAlign: 'center', fontSize: 28, color: 'blue', paddingBottom: 30, fontFamily:'DynaPuff-SemiBold' }}>Welcome to Yooquiz</Text>
           <Image style={styles.homeimg} source={require('../assets/images/home.png')} />
         </View>
         <View>
-          <Text style={{ fontSize: 25, color: 'wheat', paddingBottom: 25, fontWeight: 'bold' }}>Quiz Rules</Text>
+          <Text style={{ fontSize: 25, color: 'blue', paddingBottom: 25, fontFamily:'DynaPuff-Regular' }}>Quiz Rules</Text>
           <View>
             <Text style={styles.rulestext}>1. You must attempt all questions.</Text>
             <Text style={styles.rulestext}>2. Each question has only one right answer.</Text>
@@ -53,12 +53,13 @@ const styles = StyleSheet.create({
   hometextbtn: {
     fontSize: 18,
     textAlign: 'center',
-    color: 'wheat',
-    fontWeight: 'bold'
+    color: 'blue',
+    fontFamily:'DynaPuff-SemiBold'
   },
   rulestext: {
     fontSize: 17,
-    color: 'wheat'
+    color: 'blue',
+    fontFamily:'JosefinSans-Medium'
   }
 })
 

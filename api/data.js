@@ -7,19 +7,19 @@ const data = [
     },
     {
         qno: 1,
-        ques: "Machine learning is a concept of ?",
+        ques: "Machine learning is an actual concept of ?",
         options: ["Artificial intelligence", "Data science", "Deep learning", "All of these"],
         corr_option: "All of these"
     },
     {
         qno: 2,
-        ques: "Which framework is used to do web backend ?",
+        ques: "Which framework is used to do backend in Web Development ?",
         options: ["React", "Node", "Flutter", "Angular"],
         corr_option: "Node"
     },
     {
         qno: 3,
-        ques: "React native is maintained by ?",
+        ques: "React native is officially maintained by ?",
         options: ["Facebook", "Google", "Amazon", "Tata"],
         corr_option: "Facebook"
     },
@@ -31,7 +31,7 @@ const data = [
     },
     {
         qno: 5,
-        ques: "React native or Flutter which is better ?",
+        ques: "React native or Flutter which is better for building apps ?",
         options: ["Flutter", "React native", "Both is better", "Case depended"],
         corr_option: "Case depended"
     },
@@ -49,7 +49,7 @@ const data = [
     },
     {
         qno: 8,
-        ques: "Basics of Frontend developers are must known ?",
+        ques: "Basics of Frontend developers technologies are must known ?",
         options: ["HTML,CSS,JS", "React", "Angular", "HTML,CSS"],
         corr_option: "HTML,CSS,JS"
     },
